@@ -13,6 +13,7 @@
   <properties>
     <jdk.version>1.7</jdk.version>
     <junit.version>4.11</junit.version>
+    <junitparams.version>1.0.2</junitparams.version>
     <mockito.version>1.9.5</mockito.version>
   </properties>
 
@@ -24,10 +25,19 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- Used for Parameterized testing for JUnit -->
+    <dependency>
+      <groupId>pl.pragmatists</groupId>
+      <artifactId>JUnitParams</artifactId>
+      <version>${junitparams.version}</version>
+      <scope>test</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <version>${mockito.version}</version>
+      <scope>test</scope>
     </dependency>
 
   </dependencies>
