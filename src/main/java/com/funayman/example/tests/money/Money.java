@@ -1,3 +1,5 @@
+package com.funayman.example.tests.money;
+
 public class Money {
 
   private final int amount;
